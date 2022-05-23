@@ -4,7 +4,7 @@
 ## O que é?
 
 Framework open source, Cross Platform(multiplataforma).
-Documentação: https://reactnative.dev
+Documentação: https://reactnative.dev.
 
 ## Componentes
 
