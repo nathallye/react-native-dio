@@ -1,4 +1,7 @@
-# React Native
+# Introdução ao React Native
+![image](https://user-images.githubusercontent.com/86172286/169735667-5474e63d-8fee-4cc1-ba6f-d0c0f86a003b.png)
+
+## O que é?
 
 Framework open source, Cross Platform(multiplataforma).
 Documentação: https://reactnative.dev
