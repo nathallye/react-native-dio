@@ -1,4 +1,5 @@
 # Introdução ao React Native
+![image](https://user-images.githubusercontent.com/86172286/170399053-e0ce41d5-cfd8-4de6-ba7d-4849f45b5683.png)
 ![image](https://user-images.githubusercontent.com/86172286/169736753-e60c553a-a435-44f9-b04d-c438d08bff1b.png)
 
 ## O que é?
