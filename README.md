@@ -4,6 +4,9 @@
 ## O que é?
 
 Framework open source, Cross Platform(multiplataforma).
+Todo código desenvolvidoéconvertido para a linguagem nativa do sistema operacional.
+Conseguimos desenvolver aplicações para Android e iOS utilizando um código único.
+
 Documentação: https://reactnative.dev.
 
 ## Componentes
@@ -86,7 +89,7 @@ npx react-native start
 - Vamos deixar rodando o Metro e abrir um novo terminal no diretório do projeto e realizar a instalação do Android:
 
 ```
-npx react-native run-android
+yarn android ou npx react-native run-android
 ```
 
 ## Estrutura de pastas
@@ -101,7 +104,7 @@ npx react-native run-android
 - .ruby-version : para guardar a versão do ruby que vamos rodar no ios; 
 - .watchmanconfig : arquivo de configuração de watch;
 - App.js : arquivo da aplicação;
-- babel.config.js : arquivo de configuração do babel, já vem configurado;
+- babel.config.js : arquivo de configuração do babel, já vem configurado, faz compilação para as versões mais antigas do JS;
 - Gemfile, Gemfile.lock : arquivos de gems para o ruby;
 - metro.config.js : arquivo de configuração do metro bundle;
 - package.json : arquivo de dependências JS;
@@ -1546,4 +1549,28 @@ export default App;
 
 ``` 
 yarn android ou react-native run-android
+```
+
+## React Native Vector Icons(Para o APP curriculum)
+
+Pacote perfeito para botões, logotipos e barras de navegação/guia.
+
+- Primeiramente, no terminal vamos rodar o comando a seguir para baixar o pacote:
+
+```
+npm install --save react-native-vector-icons
+```
+
+- Em seguida, podemos importá-lo dentro do nosso projeto:
+
+``` JSX
+import Icon from 'react-native-vector-icons';
+```
+
+- Em seguida, vamos copiar o conteúdo da _Fonts_ pasta para _android/app/src/main/assets/fonts_(observe a pasta de fontes em minúsculas).
+
+- Depois de impotado o componente _Icon_ podemos usá-lo assim:
+
+``` JSX
+<Icon name='github' size={30} />
 ```

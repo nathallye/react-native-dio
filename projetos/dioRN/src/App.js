@@ -51,7 +51,7 @@ const App = () => {
         <Text 
           accessibilityLabel='Descrição Nathallye Tavares: Software developer'
           style={[styles.defaultText, styles.description]}>
-          Software developer
+          Software developer | Student of Systems Analysis and Development | I'm from Amapá-AP, but I live in Santo André - SP
         </Text>
         <Pressable onPress={handlePressGoToGithub}>
           <View style={styles.button}>
