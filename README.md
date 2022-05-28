@@ -48,7 +48,7 @@ Muitos dos componentes a seguir fornecem wrappers para classes Android comumente
 - PermissionsAndroid
 - ToastAndroid
 
-### IOS Components and APIs
+### iOS Components and APIs
 
 Muitos dos componentes a seguir fornecem wrappers para classes UIKit comumente usadas.
 
